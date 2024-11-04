@@ -32,7 +32,6 @@ namespace UI_PrimerParcial_LUG
                 partido.EquipoLocal = TxtEquipoLocal.Text;
                 partido.EquipoVisitante = TxtEquipVisitante.Text;
                 partido.FechaPartido = DatePartido.Value;
-                //partidoBusiness.guardarPartido(partido);
                 borradorPartidos.Add(partido);
                 muestraPartidos();
                 MessageBox.Show("Se agregó un Partido a la lista, correctamente.");
